@@ -1,0 +1,29 @@
+I, [2016-05-23T00:13:47.309678 #16889]  INFO -- Kitchen: -----> Starting Kitchen (v1.7.3)
+E, [2016-05-23T00:13:47.309938 #16889] ERROR -- Kitchen: ------Exception-------
+E, [2016-05-23T00:13:47.309970 #16889] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2016-05-23T00:13:47.309988 #16889] ERROR -- Kitchen: Message: Kitchen YAML file /Users/aervits/Downloads/books/learningchef/chap11/chef-playground/.kitchen.yml does not exist.
+E, [2016-05-23T00:13:47.310003 #16889] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-05-23T00:13:47.310016 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2016-05-23T00:13:47.310037 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/config.rb:149:in `data'
+E, [2016-05-23T00:13:47.310049 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/config.rb:128:in `suites'
+E, [2016-05-23T00:13:47.310061 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/config.rb:179:in `filter_instances'
+E, [2016-05-23T00:13:47.310094 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/config.rb:138:in `build_instances'
+E, [2016-05-23T00:13:47.310106 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/config.rb:114:in `instances'
+E, [2016-05-23T00:13:47.310119 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2016-05-23T00:13:47.310131 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2016-05-23T00:13:47.310142 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2016-05-23T00:13:47.310153 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2016-05-23T00:13:47.310164 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/command/action.rb:37:in `call'
+E, [2016-05-23T00:13:47.310175 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/cli.rb:56:in `perform'
+E, [2016-05-23T00:13:47.310186 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/cli.rb:180:in `block (2 levels) in <class:CLI>'
+E, [2016-05-23T00:13:47.310196 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2016-05-23T00:13:47.310207 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2016-05-23T00:13:47.310220 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/cli.rb:321:in `invoke_task'
+E, [2016-05-23T00:13:47.310231 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2016-05-23T00:13:47.310242 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2016-05-23T00:13:47.310252 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/bin/kitchen:13:in `block in <top (required)>'
+E, [2016-05-23T00:13:47.310263 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2016-05-23T00:13:47.310274 #16889] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.7.3/bin/kitchen:13:in `<top (required)>'
+E, [2016-05-23T00:13:47.310284 #16889] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `load'
+E, [2016-05-23T00:13:47.310295 #16889] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `<main>'
+E, [2016-05-23T00:13:47.310305 #16889] ERROR -- Kitchen: ----------------------
